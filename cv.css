@@ -12,7 +12,7 @@ h1, h2, h3, h4, p, a{
 header{
 
     height: 15%;
-    background-color: rgb(185, 185, 185);
+    background-color: rgba(230, 230, 230, 0.71);
     display: flex;
 }
 
@@ -57,7 +57,6 @@ main{
     height: 70%;
     width: 20%;
     max-width: 250px;
-    background-color: white;
     border: 2px solid rosybrown;
     border-radius: 20% 20%;
     justify-content: center;
@@ -83,6 +82,14 @@ main{
         transition: transform .3s;
     }
 }
+
+._unfocus{
+    background-color: rgba(224, 224, 255, 0.79);
+}
+
+._focus{
+    background-color: rgba(167, 167, 238, 0.89);
+}
    
 .content{
     height: 100%;
@@ -104,7 +111,7 @@ body main .body{
 }
 
 footer{
-    background-color: rgb(185, 185, 185);
+    background-color: rgba(230, 230, 230, 0.71);
     display: flex;
     height: 12%;
     justify-content: space-around;
