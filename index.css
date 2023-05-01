@@ -1,0 +1,34 @@
+index,body {
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+    background-image: url("accueil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accueil{
+    z-index: 1;
+    background-color: blue;
+    opacity: 0.4;
+    width:100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+}
+a{
+    color: white;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
